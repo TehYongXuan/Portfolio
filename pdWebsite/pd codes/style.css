@@ -1,0 +1,76 @@
+/* ---------------------------------Website view-------------------------------------- */
+svg{
+    height: 10vw;
+    width: 10vw;
+}
+
+nav li {
+    float: right;
+    /* list style removes the bullet */
+    list-style: none;
+    margin-top: 3vw;
+  
+  }
+  
+  nav li a {
+    font-family: LuxuriousRoman-Regular, 'Luxurious Roman';
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: flex;
+  }
+  
+  
+  nav li a:hover {
+    background-color: rgb(214, 166, 62);
+  
+  }
+
+  .dropdown-cont {
+    margin-top: 0%;
+    display: none;
+    position: absolute;
+    background-color: #f0d15ebb;
+    min-width: 165px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-cont a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-cont a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-cont {
+    display: block;
+  }
+
+
+  .bgImg{
+    /* display:none; */
+    position: fixed;
+    z-index: -1;
+    top:0;
+    left:0;
+  }
+
+
+
+
+
+
+
+
+/* ---------------------------------Mobile view-------------------------------------- */
+@media only screen and (max-width: 768px) {
+}
